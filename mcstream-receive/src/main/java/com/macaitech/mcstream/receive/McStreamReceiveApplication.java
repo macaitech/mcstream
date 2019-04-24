@@ -8,10 +8,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-public class YnStreamReceiveApplication {
+public class McStreamReceiveApplication {
 	
     public static void main(String[] args) {
-        SpringApplication.run(YnStreamReceiveApplication.class, args);
+        SpringApplication.run(McStreamReceiveApplication.class, args);
     }
     
 }

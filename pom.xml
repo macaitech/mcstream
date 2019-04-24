@@ -129,6 +129,7 @@
     <module>mcstream-common</module>
     <module>mcstream-servcie</module>
     <module>mcstream-receive</module>
+    <module>mcstream-consumer</module>
   </modules>
   
 </project>

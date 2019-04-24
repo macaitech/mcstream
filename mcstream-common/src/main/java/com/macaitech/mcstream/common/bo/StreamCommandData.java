@@ -11,17 +11,17 @@ import com.macaitech.mcstream.common.enums.DataCommandType;
  */
 public class StreamCommandData {
 	
-	private DataCommandType commandType;
+	private int commandType;
 	
 	private StreamContent streamContent;
 
 	public StreamCommandData(DataCommandType commandType, StreamContent streamContent) {
 		super();
-		this.commandType = commandType;
+		this.commandType = commandType.getType();
 		this.streamContent = streamContent;
 	}
 
-	public DataCommandType getCommandType() {
+	public int getCommandType() {
 		return commandType;
 	}
 

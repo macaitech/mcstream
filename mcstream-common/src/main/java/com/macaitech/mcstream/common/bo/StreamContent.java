@@ -29,6 +29,7 @@ public class StreamContent {
 		super();
 		this.contentId = contentId;
 		this.contentType = contentType;
+		this.streamId = this.contentType+"-"+this.contentId;
 	}
 
 	public String getStreamId() {
